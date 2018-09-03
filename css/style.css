@@ -25,7 +25,7 @@ Develop by: uiCookies.com
               -carousel-inner
         + container /
           -welcome-section
-        + container /  
+        + container /
           -service-section
             -tablist
             -tab-content
@@ -35,9 +35,9 @@ Develop by: uiCookies.com
             -activity-list-items
               -activity-list
         + quote-section /
-          - container 
+          - container
           - quote
-        + container / 
+        + container /
           -our-clients-carousel
             -our-client-thumb
               -item
@@ -267,11 +267,11 @@ body {
 }
 .header-top{
   background: #ffffff;
-  padding: 30px 0 22px 0;
+  padding: 22px 0 22px 0;
   overflow: hidden;
 }
 .logo {
-  
+
 }
 
 .header-connection{
@@ -309,11 +309,11 @@ body {
 }
 .navbar-collapse,
 .navbar-default {
-    background-color: transparent; 
+    background-color: transparent;
     border-color: transparent;
 }
 .navbar{
-    margin:0;   
+    margin:0;
     min-height: 0;
 }
 .main-nav{
@@ -407,7 +407,7 @@ Dropdown menu style
 }
 .main-nav .dropdown-menu li a:hover{
   color:#6c6c6c;
-  background: transparent;  
+  background: transparent;
   border-top: 0;
 }
 .main-nav .dropdown:hover .dropdown-menu{
@@ -453,9 +453,9 @@ input.empty {
 :focus::-webkit-input-placeholder {
   color: #ffffff !important;
 }
- 
-:focus::-webkit-input-placeholder { 
-  color: ffffff !important;  
+
+:focus::-webkit-input-placeholder {
+  color: ffffff !important;
 }
 
 
@@ -465,7 +465,7 @@ input.empty {
       margin-bottom: 15px;
     }
     .header-wrapper {
-      padding: 0; 
+      padding: 0;
     }
 
     .header-connection {
@@ -667,7 +667,7 @@ offcanvas-menu
   border:0;
 }
 .service-section li{
-  border-radius: 0;   
+  border-radius: 0;
   padding: 0 1em;
   display: inline-block;
   border-left: 2px solid rgba(0,0,0,.3);
@@ -685,9 +685,9 @@ offcanvas-menu
     text-transform: uppercase;
     padding-bottom: 1em;
 }
-.service-section .active a, 
-.service-section .active a:focus, 
-.service-section .active a:hover  
+.service-section .active a,
+.service-section .active a:focus,
+.service-section .active a:hover
 {
   color: #fdc312;
   background: #ffffff;
@@ -851,7 +851,7 @@ offcanvas-menu
 }
 .quote{
   padding: 7em 20em;
-  text-align: center; 
+  text-align: center;
 }
 .quote h2{
   color:#ffffff;
@@ -868,12 +868,12 @@ offcanvas-menu
 
 @media(max-width: 767px){
   .quote{
-    padding: 5em 0em; 
+    padding: 5em 0em;
   }
 }
 @media(min-width: 768px) and (max-width: 1199px){
   .quote{
-    padding: 5em 10em; 
+    padding: 5em 10em;
   }
 }
 
@@ -902,7 +902,7 @@ offcanvas-menu
   border-left: 0;
   border-right: 0;
 }
-.footer-top p, 
+.footer-top p,
 address{
   font-size: .9rem;
 }
@@ -937,8 +937,8 @@ color:#dddddd;
 }
 .responsability li a{
   font-size: .9rem;
-  color:#888; 
-  padding-left: 1em; 
+  color:#888;
+  padding-left: 1em;
 }
 .responsability li a:hover{
   color:#fdc312;
@@ -976,9 +976,9 @@ color:#dddddd;
   }
 }
 @media(min-width: 600px) and (max-width: 767px){
-  .footer-logo, 
-  .news, 
-  .responsability, 
+  .footer-logo,
+  .news,
+  .responsability,
   .contact-us{
     width: 50%;
     float:left;
@@ -1007,7 +1007,7 @@ color:#dddddd;
   background: transparent;
   padding: 0;
 }
-.breadcrumb a, 
+.breadcrumb a,
 .breadcrumb>.active{
   color: #ffffff;
 }
@@ -1040,11 +1040,11 @@ color:#dddddd;
   padding: 5em 0;
   border:1px solid rgba(0,0,0, .05);
   border-left: 0;
-  border-right: 0; 
+  border-right: 0;
 }
 .company-focus h3{
   margin-bottom: 1em;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 
 @media(max-width: 991px){
@@ -1061,7 +1061,7 @@ color:#dddddd;
   overflow: hidden;
   padding: 5em 0;
 }
-.residential-plumb h2, 
+.residential-plumb h2,
 .commercial-plumb h2{
   margin-bottom: 1.5em;
   padding-left: .5em;
@@ -1131,43 +1131,43 @@ color:#dddddd;
   padding: 5em 0;
   border:1px solid rgba(0,0,0, .05);
   border-left: 0;
-  border-right: 0; 
+  border-right: 0;
 }
 
 @media(max-width: 480px){
-  .residential-plumb h2, 
+  .residential-plumb h2,
   .commercial-plumb h2{
     font-size: 1.7rem;
   }
-  .residential-plumb .service-item:hover .service-description, 
+  .residential-plumb .service-item:hover .service-description,
   .commercial-plumb .service-item:hover .service-description {
     margin: 0.5em;;
     padding: 2.6em 0 0.5em 1em;
   }
 }
 @media(min-width:600px) and (max-width: 767px){
-  .residential-plumb .service-item:hover .service-description, 
+  .residential-plumb .service-item:hover .service-description,
   .commercial-plumb .service-item:hover .service-description {
     margin: 4.5em;
     padding: 9.6em 2em 2.5em 2em;
-  } 
+  }
 }
 @media(min-width:768px) and (max-width: 991px){
-  .residential-plumb .service-item:hover .service-description, 
+  .residential-plumb .service-item:hover .service-description,
   .commercial-plumb .service-item:hover .service-description {
     padding: 4.5em 0 1.5em 0.8em;
-  } 
+  }
 }
 @media(min-width:992px) and (max-width: 1199px){
-  .residential-plumb .service-item:hover .service-description, 
+  .residential-plumb .service-item:hover .service-description,
   .commercial-plumb .service-item:hover .service-description {
     margin: 0.5em;
     padding: 1.6em 0 1.5em 1.8em;
-  } 
+  }
 }
 
 /*-----------------------------------------------------------
- Single-page style 
+ Single-page style
 ---------------------------------------------------------*/
 .single-details{
   padding:5em 0;
